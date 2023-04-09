@@ -1,0 +1,22 @@
+{
+  "name": "videoinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafa-so/videoinfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafa-so/videoinfo/issues"
+  },
+  "homepage": "https://github.com/rafa-so/videoinfo#readme",
+  "dependencies": {
+    "electron": "^24.0.0"
+  }
+}
