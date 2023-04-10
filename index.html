@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Videoinfo</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Videoinfo</h1>
+        <form action="">
+            <label for="">Select a video</label>
+            <input type="file" accept="video/*" />
+            <button type="submit"></button>
+        </form>
+
+        <script>
+            document.querySelector('form').addEventListener('submit', (event) => {
+                event.preventDefault();
+                const file = document.querySelector('input').files[0];
+
+            });
+        </script>
+    </body>
 </html>

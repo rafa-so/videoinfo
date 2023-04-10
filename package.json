@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rafa-so/videoinfo#readme",
   "dependencies": {
-    "electron": "^24.0.0"
+    "electron": "^24.0.0",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
