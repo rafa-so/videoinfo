@@ -10,7 +10,7 @@
         <form action="">
             <label for="">Select a video</label>
             <input type="file" accept="video/*" />
-            <button type="submit"></button>
+            <button type="submit">Get info</button>
         </form>
 
         <script>
@@ -21,7 +21,7 @@
                 event.preventDefault();
                 const { path } = document.querySelector('input').files[0];
 
-                ipcRenderer.send('video:submit', );
+                ipcRenderer.send('video:submit', path);
             });
         </script>
     </body>
